@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "It is a distributed version control system where it allows individuals and teams to track changes to code for projects. It prevents losing progress and prevents bugs."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -19,6 +21,7 @@
 
 //CODE HERE
 
+let gitHubDefinition = "It is a website where you take your git repositories and you can upload and download them. It is a service that provides hosting for software development projects using Git for version control."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +29,7 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = "It is a command in Git. It is used to initialize a new Git local repository."
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +38,7 @@
 
 //CODE HERE
 
+let gitCloneDefinition = "It is a Git command where it is used to create a copy of a remote repository on your local computer."
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +46,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "It is a Git command where Git provides information about the state of the files in your working directory. It tells you which files are modified, untracked, or staged for commit."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +57,8 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = "It is a Git command where it is used to stage changes in your working directory for the next commit in Git. It also tracks any deleted files."
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +69,8 @@
 */
 
 //CODE HERE
-
+let gitCommitDefinition = "It is a Git command that tracks the changes that have been staged. It enables you to save your work in the local Git repository."
+let gitCommitCode = 'git commit -m "initial commit".'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +79,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "It is a Git command where you upload local commits to a remote repository like Github."
