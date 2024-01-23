@@ -54,7 +54,7 @@ const pinkPrice = .55
 let totalAcres = 0;
 
 for (let i = 0; i < fujiAcres.length; i++) {
-    totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i];
+    totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i]; // made a for loop and calculated the total for each type of acre from each array using and for those three arrays I calculated the total acres
 }
 
 console.log(totalAcres);
@@ -73,9 +73,9 @@ console.log(totalAcres);
 
 // CODE HERE
 
-let numberOfDays = fujiAcres.length;
+let numberOfDays = fujiAcres.length; // created a variable for the number of days using the length of the array which indicate the each acre for each day of the week
 
-let averageDailyAcres = totalAcres / numberOfDays;
+let averageDailyAcres = totalAcres / numberOfDays; // created a variable to find the average daily acres by using my total acres and dividing it by the numbers of days found from length of the array for the fuji array
 console.log(averageDailyAcres);
 
 // PROBLEM 3
@@ -113,8 +113,8 @@ let days = 0
 // CODE HERE
 
 while (acresLeft > 0) {
-    days++;
-    acresLeft -= averageDailyAcres;
+    days++; // used to count the days for each loop when the acres left is greater than 0
+    acresLeft -= averageDailyAcres; // used to calculate the acres left for each loop when subtracting the average daily acres
 }
 console.log(days);
 
@@ -152,7 +152,7 @@ let pinkTons = []
 
 for (let i = 0; i < fujiAcres.length; i++) {
    fujiTons.push(fujiAcres[i]* acresTon) 
-}
+} // used a for loop to create an array for the fuji tons. Used the push method to add to an empty array where we calculated fuji tons by multiplying each index of the fuji acres by the acres ton which is 6.5.
 for (let i = 0; i < galaAcres.length; i++) {
     galaTons.push(galaAcres[i]* acresTon)
 }
@@ -190,7 +190,7 @@ let pinkPounds = 0
 
 for (let i = 0; i < fujiTons.length; i++) {
     fujiPounds += fujiTons[i]* poundsPerTon
-}
+} // used a for loop for the fuji tons array so I can calculate total pounds amount of fuji apples. I mulitplied each fuji ton for each index in the fuji ton array by 2000 pounds and added each index up to come up with the total fuji pounds I used a += assignment operator to add each index of the array.
 for (let i = 0; i < galaTons.length; i++) {
     galaPounds += galaTons[i]* poundsPerTon
 }
@@ -221,7 +221,7 @@ console.log(pinkPounds + ' pink pounds');
 
 // CODE HERE
 
-let fujiProfit = fujiPounds * fujiPrice;
+let fujiProfit = fujiPounds * fujiPrice; // simple multiplication where I multiplied the fuji pounds by the fuji price per pound to get the fuji profit
 let galaProfit = galaPounds * galaPrice;
 let pinkProfit = pinkPounds * pinkPrice;
 
@@ -242,6 +242,6 @@ console.log('$'+ pinkProfit + ' pink profit');
 
 // CODE HERE
 
-let totalProfit = fujiProfit + galaProfit + pinkProfit;
+let totalProfit = fujiProfit + galaProfit + pinkProfit; // added together the profit for each type of apple to get the total profit 
 
 console.log('$' + totalProfit);
